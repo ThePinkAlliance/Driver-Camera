@@ -1,0 +1,7 @@
+<launch>
+    <include file="$(find usb_cam)/launch/usb_cam-test.launch">
+    </include>
+    <node name="video_web_server" pkg="video_web_server" type="video_web_server">
+        <param name="port" value="5808"  />
+    </node>
+</launch>
