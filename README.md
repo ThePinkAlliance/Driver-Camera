@@ -18,7 +18,7 @@ Learn to use camera with odroid on ros melodic.
  - You will need web_video_server installed
  - You will need usb_cam installed
 
-#### Now begin setup
+## Now begin setup
  - First thing you will want to do is make a folder `usb_cam` with the usb_cam drivers and packages installed and another folder inside named `launch`.
  - You will also need a folder titled `web_video_server` with the web_video_server packages installed and another folder inside named `launch`.
  - In the `web_video_server` folder in the `launch` folder you will need to make a launch file named whatever you would like, the name I used it `total_launch.launch`.
