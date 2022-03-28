@@ -30,7 +30,7 @@ Learn to use camera with odroid on ros melodic.
   - The first thing that denotes a launch file is the opening and closing of the launch file this is done by: `<launch>` and `</launch>`
   - The next step is to in the launch open and call the specific **nodes** that the launch file uses. A node is a process that when used will perform a specific action or calculation denoted by what the node is instructed to do from code. To open a node, you do this `<node` then in this first line also include the name, package, type and in this case output.
   `<node name ="usb_cam" pkg="usb_cam" type="usb_cam_node" output="screen" >` you will notice `pkg` this is a **package** which is basically a directory for a ROS system.
-  - The next thing you will want to dois list all parametes that his node will follow. I am not foing to list them all here, but here is an example `<param name="image_width" value="640"/>` so to declare this parameter, you state the name which in this case is the image width and the value which is 640. 
+  - The next thing you will want to do is list all parametes that his node will follow. I am not foing to list them all here, but here is an example `<param name="image_width" value="640"/>` so to declare this parameter, you state the name which in this case is the image width and the value which is 640. 
   - Once all parameters are listed, close the node with `</node>` and make sure the launch is closed with `</launch>`.
  ##### total_launch launch file explanation
   - The next part is to create the launch file which will be used on boot. Make sure the `total_launch.launch` file is in the `web_video_server` folder in the `launch` folder.
